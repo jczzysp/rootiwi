@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog : Under Construction</title>
+    <link rel="stylesheet" href="construction.css">
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <div class="customCursor" id="customCursor"></div>
+    <script>
+        const customCursor = document.getElementById('customCursor');
+        document.addEventListener('mousemove', (e) => {
+            customCursor.style.left = e.pageX + 'px';
+            customCursor.style.top = e.pageY + 'px';
+        });
+    </script>
+    <img src="https://i.pinimg.com/564x/e3/1e/e2/e31ee255f17a5801e51c6bae3d6cad93.jpg" alt="">
+    <nav>
+        <span class="logo">JCZZ</span>
+        <a href="/index.html">Index</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">contact</a>
+        <a href="blog.html" id="active">blogs</a>
+        <span class="material-symbols-outlined">
+            public
+        </span>
+    </nav>
+    <footer>
+        <span style="font-family: var(--PrimaryFont);"> A website made with love by Jazz.<br>Pictures Sourced from Pinterest. <br> website made on 17-09-24 (02:57am)</span>
+    </footer>
+</body>
+</html>
